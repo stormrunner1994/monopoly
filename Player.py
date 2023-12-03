@@ -1,3 +1,5 @@
+import random
+
 class Player:
     def __init__(self, Money, Name):
         self.Name=Name
@@ -9,7 +11,7 @@ class Player:
         return
     
     def _ShuffleDices():
-        return 12
+        return random.randint(1,6) + random.randint(1,6)
     
     def _BuyStreet():
         return
