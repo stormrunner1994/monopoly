@@ -6,6 +6,7 @@ class Player:
         self.Position=0
         self.Money=Money
         self.Streets=[]
+        self.Cards=[]
         
     def MakeMove():
         return
