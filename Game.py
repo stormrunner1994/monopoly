@@ -1,13 +1,14 @@
-import Board from Board
-import Card from Card
+import Board
+import Card
+import Player
 
 class Game:
     def __init__(self, numberPlayers):
-        self.Board = Board()
+        self.Board = Board.Board()
         self.NumberPlayers = numberPlayers
-        self.CommunityCards=Card[16]
-        self.EventCards=Card[16]
-        self.Players=Player[numberPlayer]
+        self.CommunityCards=[]
+        self.EventCards=[]
+        self.Players=[]
         self.Round=0
         
     def StartNewGame(self):

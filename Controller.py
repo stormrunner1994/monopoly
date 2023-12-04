@@ -9,9 +9,9 @@ class Controller:
         numberPlayers=4
         # TODO this in external thread, runs in background
         for index in range(0,numberOfGames-1):
-            game = Game(numberPlayers)
+            game = Game.Game(numberPlayers)
             game.StartNewGame()
-            self.Results.Append(game.GetStreetsOfWinner())
+            self.Results.append(game.GetStreetsOfWinner())
             
     def PrintResults(self):
         for index in range(0,len(self.Results)-1):

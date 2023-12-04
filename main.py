@@ -1,6 +1,6 @@
 import Controller
 
-controller = Controller()
-controller.StartNewGames(10)
-controller.PrintResults()
+myController = Controller.Controller()
+myController.StartNewGames(10)
+myController.PrintResults()
 

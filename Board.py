@@ -1,6 +1,6 @@
 import Street
 
 class Board:
-    def __init__(self, name, age):
-        self.Fields=Street[39]
+    def __init__(self):
+        self.Fields=[39]
         
