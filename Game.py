@@ -6,8 +6,6 @@ class Game:
     def __init__(self, numberPlayers):
         self.Board = Board.Board()
         self.NumberPlayers = numberPlayers
-        self.CommunityCards=[]
-        self.EventCards=[]
         self.Players=[]
         self.Round=0
         
