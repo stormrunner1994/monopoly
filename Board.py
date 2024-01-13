@@ -8,6 +8,7 @@ class Board:
         self.CommunityCards=[16]
         self.EventCards=[16]
         
+        
     def _GetCommunityCards(self):       
         self.CommunityCards = []
         self.CommunityCards.append(Card.Card({CardTypes.MoveToNextBall:-1, CardTypes.OwnerGetsDoubleRent:-1}))
