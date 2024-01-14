@@ -23,3 +23,8 @@ class Board:
         self.CommunityCards.append(Card.Card({CardTypes.GetMoneyFromBank:50}))
         self.CommunityCards.append(Card.Card({CardTypes.GoToPrison:-1}))        
         self.CommunityCards.append(Card.Card({CardTypes.GoToPrison:-1}))
+    
+    def _Streets(self):
+        self.Streets = []
+        self.Streets.append(Street.Street(60,{'Onehouse':30,'Twohouses':80,'Threehouses':100,'Hotel':300},'Glurak',50,0))
+        self.Streets.append(Street.Street(70,{'Onehouse':47,'Twohouses':90,'Threehouses':120,'Hotel':360},'Abra',40,1))
